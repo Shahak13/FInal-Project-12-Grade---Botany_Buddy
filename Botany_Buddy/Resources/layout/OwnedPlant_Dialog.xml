@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff99">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Make It Your Own"
+        android:textSize="20dp"
+        />
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:text="When did you got/boughet your plant"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="pick the date here"
+        android:id="@+id/btnTimeGot"/>
+    
+    
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:text="What is the size of your plant"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="write size in cm"
+        android:inputType="number"
+        android:id="@+id/etSize"/>
+    <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:text="What is the size of your plant newest leaf"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="write size in cm"
+        android:inputType="number"
+        android:id="@+id/etLeafSize"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:id="@id/btnSubmit"/>
+
+</LinearLayout>

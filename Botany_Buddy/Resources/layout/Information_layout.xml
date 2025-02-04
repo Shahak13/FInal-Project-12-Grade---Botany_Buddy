@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/ivImage"
+                    android:layout_marginLeft="50dp"/>
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/ivImage2"
+                    android:layout_marginRight="50dp"/>
+           </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+        
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textStyle="bold"
+                    android:background="#f0ead6"
+                    android:textColor="#b76e79"
+                    android:textSize="20dp"
+                    android:id="@+id/tvName"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Info"
+                    android:background="#f0ead6"
+                    android:id="@+id/tvInfo"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave"
+        android:layout_above="@id/linearLayout1"
+        android:text="save plant to my garden"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:background="@drawable/homebutton"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:id="@+id/btnHome"/>
+        
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/identifybutton"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:id="@+id/btnIdentify"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:background="@drawable/mygardenbutton"
+            android:id="@+id/btnMyGarden"
+
+        />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:id="@+id/btnHistory"
+            android:background="@drawable/historybutton"
+
+        />
+    </LinearLayout>
+</RelativeLayout>
+
+
+

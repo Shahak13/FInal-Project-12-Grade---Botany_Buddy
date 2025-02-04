@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/Background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Botany Buddy"
+        android:textSize="40dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvTitle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot Now"
+        android:textStyle="bold"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/tvHot"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/lvHot"
+        android:layout_below="@id/tvHot"
+        
+        
+        
+        />
+
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:background="@drawable/homebutton"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:id="@+id/btnHome"/>
+        
+        <ImageButton
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:background="@drawable/identifybutton"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:id="@+id/btnIdentify"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:background="@drawable/mygardenbutton"
+            android:id="@+id/btnMyGarden"
+
+        />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="10dp"
+            android:id="@+id/btnHistory"
+            android:background="@drawable/historybutton"
+
+        />
+    </LinearLayout>
+    
+    
+</RelativeLayout>

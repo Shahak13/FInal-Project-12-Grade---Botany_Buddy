@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389703340695",
+    "project_id": "botany-buddy-656be",
+    "storage_bucket": "botany-buddy-656be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389703340695:android:2351f1d3e92204c484cfd2",
+        "android_client_info": {
+          "package_name": "com.companyname.botany_buddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqYEN85_drm57TmxjejI0AKGk-w2lE7k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

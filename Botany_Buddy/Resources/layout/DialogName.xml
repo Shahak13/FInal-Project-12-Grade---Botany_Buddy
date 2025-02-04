@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:background="#ffff99">
+
+  <ToggleButton
+    android:id="@+id/toggle_mode"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textOff="Sign Up"
+    android:textOn="Login"
+    android:text=""  android:textStyle="bold"
+    android:textSize="18dp"
+    android:textColor="#000000"
+    android:checked="true"  />
+
+  <EditText
+    android:id="@+id/etUsername"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:hint="Username"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp" />
+
+  <EditText
+    android:id="@+id/etPassword"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:hint="Password"
+    android:inputType="textPassword"  android:layout_gravity="center"
+    android:layout_marginTop="20dp" />
+
+  <EditText
+    android:id="@+id/etConfirmPassword" 
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:hint="Confirm Password"
+    android:inputType="textPassword"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:visibility="gone"  />
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <CheckBox
+      android:id="@+id/cbStayLoggedIn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Stay Logged In" />
+
+    <Button
+      android:id="@+id/btnSubmit"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Submit"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="20dp" />
+  </LinearLayout>
+
+</LinearLayout>
